@@ -1,7 +1,7 @@
 import 'dart:html';
 
 import 'package:flutter/material.dart';
-import 'package:myclassmate/login.dart';
+
 import 'package:path/path.dart';
 
 void main() {
