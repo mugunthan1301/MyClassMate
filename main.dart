@@ -1,7 +1,6 @@
 import 'dart:html';
-
 import 'package:flutter/material.dart';
-
+import 'package:myclassmate/login.dart';
 import 'package:path/path.dart';
 
 void main() {
@@ -55,8 +54,8 @@ class Register extends StatelessWidget {
             ),
             SizedBox(height: 16.0),
             ElevatedButton(
-              onPressed: () {
-                
+              onPressed: () {Navigator.push(
+                    context, MaterialPageRoute(builder: ((context) => App()))); 
               },
               child: Text('Register'),
             ),
