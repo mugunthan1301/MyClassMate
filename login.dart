@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myclassmate/Section.dart';
 
 void main() {
   runApp(App());
@@ -41,7 +42,9 @@ class Login extends StatelessWidget{
     ),
     SizedBox(height:16.0),
 ElevatedButton(
-    onPressed: () {},
+    onPressed: () {Navigator.push(
+                    context, MaterialPageRoute(builder: ((context) => SectionManagement())));
+                    },
    child: Text('Login'),
 )
 ],
